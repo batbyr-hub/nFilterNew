@@ -1,0 +1,38 @@
+
+{% load static %}
+
+<script src="{% static "js/main.js" %}"></script>
+
+<div class="modal-content">
+    <div class="modal-header">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 useg" style="text-align: center;">Дугаар хадгалуулах</div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <p class="useg" style="padding: 20px 40px 0">Таны сонгосон дугаар: {{ number }}</p>
+        <p class="useg" style="padding: 20px 40px 0">Регистрийн дугаараа оруулснаар сонгосон дугаараа 24 цагийн турш хадгалуулах боломжтой.</p>
+        <p class="useg" style="padding: 20px 40px 0"><input maxlength="10" value="" id="registr" placeholder="Регистрийн дугаар"></p>
+        <p id="registrHooson"></p>
+        <p id="zuvRegistr"></p>
+        <p id="zuvhunKrill"></p>
+    </div>
+    <div class="modal-footer">
+        <div class="row" style="margin-top: 20px">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <a href="/{{ prepost }}?numbertype={{ numbertype }}&az={{ az }}">
+                    <p class="number_box Oval1 useg" style="width: 130px; text-align: center">Цуцлах</p>
+                </a>
+            </div>
+            <div class="col-sm-5">
+                <a href="javascript: registr('{{ number }}', '{{ prepost }}', '{{ numbertype }}', '{{ az }}')">
+                    <p class="number_box Oval1 useg" style="width: 130px; text-align: center">Хадгалах</p>
+                </a>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+</div>

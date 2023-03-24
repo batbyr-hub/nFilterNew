@@ -1,0 +1,92 @@
+2019-06-12 09:58:53,835:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 09:58:55,247:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 09:58:55,459:WARNING:Not Found: /favicon.ico
+2019-06-12 09:59:24,388:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 09:59:25,650:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 09:59:41,332:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 09:59:42,790:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 10:09:42,983:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 10:18:57,726:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 10:28:58,132:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 11:07:41,098:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 11:17:41,336:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 12:17:41,765:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 13:17:42,242:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 14:17:42,703:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 15:17:43,183:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 15:53:56,918:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 15:53:57,299:WARNING:Not Found: /favicon.ico
+2019-06-12 15:53:58,776:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 15:54:21,381:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 16:02:49,681:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 16:02:51,042:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 16:03:11,193:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 16:13:11,644:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 16:22:09,990:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 16:26:53,549:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 209, in getNumber
+    if start[2] == "*" and start[3] > 1:
+IndexError: string index out of range
+2019-06-12 16:32:10,799:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 16:58:59,085:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 16:59:07,898:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 16:59:09,769:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-12 17:09:10,019:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 18:09:11,130:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 19:09:11,918:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 20:09:12,414:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 21:09:12,987:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 22:09:13,507:INFO:----------------------------------------------------------------------------------------------------
+2019-06-12 23:09:14,069:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 00:09:14,622:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 01:09:15,121:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 02:09:15,676:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 03:09:16,165:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 04:09:16,677:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 05:09:17,165:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 06:09:17,684:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 07:09:18,203:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 08:09:20,746:INFO:----------------------------------------------------------------------------------------------------
+2019-06-13 08:57:13,312:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-13 08:57:19,638:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 201, in getNumber
+    while (i < len(start)):
+TypeError: object of type 'PrefixOLD' has no len()

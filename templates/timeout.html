@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="120;url=/">
+    <title>Дугаар шүүлт</title>
+
+    <link rel="stylesheet" href="{% static "css/error.css" %}">
+    <link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static "css/fonts.css" %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static "css/bootstrap/bootstrap.css" %}" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<div class="layer">
+    <div class="container">
+        <div class="ks_header">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="http://gmobile.mn/images/logo.svg" class="img-responsive" style="width: 200px"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-bottom: 45%">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <!--p style="text-align: center; margin-bottom: 5%">
+                    <img src="{% static 'images/new_design_images/icons/!@2x.png' %}">
+                </p-->
+
+
+                <h1 class="useg" style="text-align: center; margin-top: 10%">{{ error1 }}</h1>
+                <h1 class="useg" style="text-align: center; margin-bottom: 10%">{{ error2 }}</h1>
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div class="huree Oval1">
+                            <a class="nuurTabText useg" href="/" style="font-size: large;">Үндсэн хуудас руу буцах</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+
+                <!--a class="huree pulse" href="/" style="border-radius: 18px; width: 400px">
+                    <div class="link-content useg" style="text-align: center">Үндсэн хуудас руу буцах</div>
+                </a-->
+
+                <!--a class="action-link pulse" href="{{ try_again_url }}" style="border-radius: 18px">
+                    <div class="link-content useg" style="text-align: center">{{ try_again }}</div>
+                </a-->
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

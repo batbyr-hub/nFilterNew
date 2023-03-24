@@ -1,0 +1,2 @@
+2019-12-28 20:58:04,569:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.
+2019-12-28 22:30:43,205:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.

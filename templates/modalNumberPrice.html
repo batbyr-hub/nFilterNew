@@ -1,0 +1,31 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 useg" style="text-align: center; font-weight: bold">Дугаар хадгалуулах</div>
+            <div class="col-sm-2 close" style="font-size: 40px; text-align: center;">&times;</div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <p class="useg" style="padding: 20px 40px 0;">Сонгосон дугаар: {{ number }}</p>
+        <p class="useg" style="padding: 20px 40px 0">Үйлчилгээний төрөл: {{ selected_numbertype }}</p>
+        <p class="useg" style="padding: 20px 40px 0">Онцгой дугаарын үнэ: {{ aziinDugaar.price }}₮</p>
+        <p class="useg" style="padding: 20px 40px 0">Регистрийн дугаараа оруулснаар сонгосон дугаараа 3 цагийн турш хадгалуулах боломжтой.</p>
+        <p class="useg" style="padding: 20px 40px 0"><input maxlength="10" value="" id="registr" placeholder="Регистрийн дугаар"></p>
+        <p id="registrHooson"></p>
+        <p id="zuvRegistr"></p>
+        <p id="zuvhunKrill"></p>
+    </div>
+    <div class="modal-footer">
+        <div class="row" style="margin-top: 20px">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" style="text-align: center">
+                <a href="javascript: registr('{{ number }}', '{{ prepost }}', '{{ numbertype }}', '{{ az }}')">
+                    <p class="number_box Oval1 useg" style="width: 130px; text-align: center">Хадгалах</p>
+                </a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</div>
+

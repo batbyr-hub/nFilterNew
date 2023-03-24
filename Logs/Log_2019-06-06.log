@@ -1,0 +1,289 @@
+2019-06-06 10:49:11,661:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 10:49:11,944:WARNING:Not Found: /favicon.ico
+2019-06-06 10:49:22,957:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 166, in getNumber
+    start[0] = 8
+TypeError: 'unicode' object does not support item assignment
+2019-06-06 10:53:51,039:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 10:53:51,980:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 10:53:54,612:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start[0] = 8
+TypeError: 'unicode' object does not support item assignment
+2019-06-06 11:03:47,369:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 11:03:48,403:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 11:03:48,575:WARNING:Not Found: /favicon.ico
+2019-06-06 11:03:51,934:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'str' object does not support item assignment
+2019-06-06 11:04:30,329:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 11:04:31,204:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 11:04:33,739:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'unicode' object does not support item assignment
+2019-06-06 11:06:44,099:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 11:06:45,062:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 11:06:45,221:WARNING:Not Found: /favicon.ico
+2019-06-06 11:06:48,385:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'unicode' object does not support item assignment
+2019-06-06 11:16:45,288:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 11:25:54,038:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 11:28:08,677:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 11:28:09,548:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 11:28:15,302:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 166, in getNumber
+    start[0] = 8
+TypeError: 'unicode' object does not support item assignment
+2019-06-06 11:34:44,026:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 11:34:44,903:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 11:44:45,084:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 12:44:45,799:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 13:44:46,443:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 14:06:44,526:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 14:06:44,971:WARNING:Not Found: /favicon.ico
+2019-06-06 14:06:52,865:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'str' object does not support item assignment
+2019-06-06 14:16:45,269:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 14:49:13,171:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 14:49:13,723:WARNING:Not Found: /favicon.ico
+2019-06-06 14:49:20,275:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'str' object does not support item assignment
+2019-06-06 14:59:13,802:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 15:06:48,809:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 15:06:51,653:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'str' object does not support item assignment
+2019-06-06 15:16:49,135:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 16:03:47,516:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 16:03:52,043:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 165, in getNumber
+    start[0] = 8
+TypeError: 'str' object does not support item assignment
+2019-06-06 16:13:47,815:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 16:58:28,595:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 16:58:46,163:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 16:58:47,924:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 17:01:05,697:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 17:01:07,246:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 17:03:14,986:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 17:03:16,598:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-06 17:13:16,917:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 18:13:17,648:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 19:13:18,242:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 20:13:18,779:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 21:13:19,413:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 22:13:21,526:INFO:----------------------------------------------------------------------------------------------------
+2019-06-06 23:13:22,174:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 00:13:22,592:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 01:13:23,240:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 02:13:23,799:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 03:13:24,493:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 04:13:25,331:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 05:13:26,039:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 06:13:26,750:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 07:13:27,407:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 08:13:28,483:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 09:13:29,190:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 09:30:41,292:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 09:30:41,517:WARNING:Not Found: /favicon.ico
+2019-06-07 09:30:43,500:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 09:30:44,713:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ

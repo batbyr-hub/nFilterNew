@@ -1,0 +1,1133 @@
+2019-06-07 09:36:36,055:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 09:36:40,243:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 09:37:04,154:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 09:37:05,719:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 09:47:05,979:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 09:51:37,940:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:01:38,190:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:10:53,371:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:11:34,305:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:11:35,746:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:12:24,763:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:12:26,394:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:13:58,828:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:14:00,470:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:15:38,576:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:15:40,098:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:15:42,885:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 186, in getNumber
+    start = start + j
+TypeError: can only concatenate list (not "int") to list
+2019-06-07 10:17:05,506:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:17:06,536:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:17:09,237:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 186, in getNumber
+    start = start.append(start[j])
+AttributeError: 'NoneType' object has no attribute 'append'
+2019-06-07 10:17:54,015:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:17:57,437:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 186, in getNumber
+    start = start.pop(j)
+AttributeError: 'int' object has no attribute 'pop'
+2019-06-07 10:18:12,948:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:18:15,509:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 186, in getNumber
+    start = start.pop(start[j])
+IndexError: pop index out of range
+2019-06-07 10:21:00,242:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:21:01,648:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:21:04,075:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 186, in getNumber
+    start += j
+TypeError: 'int' object is not iterable
+2019-06-07 10:22:33,196:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:22:35,700:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 184, in getNumber
+    start = ''.join(start)
+TypeError: sequence item 0: expected string, int found
+2019-06-07 10:24:52,694:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:24:55,693:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 187, in getNumber
+    start = ''.join(tmp)
+TypeError: sequence item 0: expected string, int found
+2019-06-07 10:27:41,993:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:27:43,154:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:32:09,882:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:32:11,260:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:32:14,257:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 180, in getNumber
+    start.remove(i)
+ValueError: list.remove(x): x not in list
+2019-06-07 10:33:18,755:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:33:20,078:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:33:23,349:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 180, in getNumber
+    start.remove(start.index(i))
+ValueError: 7 is not in list
+2019-06-07 10:37:10,394:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:37:11,542:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:40:23,546:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:40:25,045:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:44:51,299:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:44:52,418:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:45:44,065:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:45:45,369:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:46:23,506:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:46:24,578:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:56:24,753:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 10:58:18,619:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:58:50,867:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 10:59:36,378:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:09:36,841:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:09:56,823:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:10:00,865:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 203, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 11:19:57,191:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:29:53,566:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:30:52,038:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:30:52,882:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:32:00,549:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:32:01,609:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:34:28,167:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:34:29,256:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:35:13,101:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:35:14,207:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:38:20,864:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:38:21,855:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:39:45,134:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:39:45,803:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:40:46,680:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:40:47,651:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 11:50:47,861:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 11:51:04,082:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 12:01:04,446:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 13:01:05,157:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 13:26:39,858:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 13:26:40,072:WARNING:Not Found: /favicon.ico
+2019-06-07 13:35:23,119:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 241, in getNumber
+    numero = numbers[i]
+TypeError: list indices must be integers, not str
+2019-06-07 13:36:00,770:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 241, in getNumber
+    numero = numbers[i]
+TypeError: list indices must be integers, not str
+2019-06-07 13:36:40,171:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 13:36:49,154:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 13:36:55,818:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 242, in getNumber
+    numero = numbers[i]
+TypeError: list indices must be integers, not str
+2019-06-07 13:37:39,773:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 242, in getNumber
+    numero = int(numbers[i])
+TypeError: list indices must be integers, not str
+2019-06-07 13:38:09,598:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 242, in getNumber
+    numero = numbers[int(i)]
+IndexError: list index out of range
+2019-06-07 13:39:21,979:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 241, in getNumber
+    print numbers[i]
+TypeError: list indices must be integers, not str
+2019-06-07 13:40:18,323:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 241, in getNumber
+    print numbers.pop(i)
+TypeError: an integer is required
+2019-06-07 13:40:54,388:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 242, in getNumber
+    print numbers.pop(i)
+TypeError: an integer is required
+2019-06-07 13:41:52,391:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 246, in getNumber
+    numero = numero[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 13:42:28,723:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 246, in getNumber
+    numero = numero[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 13:42:56,467:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 246, in getNumber
+    numero = numero[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 13:43:22,533:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    numero = numero[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 13:45:22,428:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    numero = numero[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 13:46:24,335:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 244, in getNumber
+    numero = PrefixOLD.objects.get(is_active=1, prefix=numero, category=numbertype)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: PrefixOLD matching query does not exist.
+2019-06-07 13:46:49,364:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 13:47:27,855:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 13:47:35,256:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 244, in getNumber
+    numero = PrefixOLD.objects.get(is_active=1, prefix__exact=numero, category=numbertype)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: PrefixOLD matching query does not exist.
+2019-06-07 13:49:41,230:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 248, in getNumber
+    numero = numero[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-06-07 13:57:28,184:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 13:57:31,316:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 14:07:31,516:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 14:08:01,203:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 14:09:48,072:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    numeros[i] = pre[0]
+IndexError: list assignment index out of range
+2019-06-07 14:18:01,573:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 14:30:57,881:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 14:35:00,089:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 251, in getNumber
+    if int(numero) == int(pre):
+TypeError: int() argument must be a string or a number, not 'PrefixOLD'
+2019-06-07 14:35:38,671:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 251, in getNumber
+    if int(numero) == int(pre):
+TypeError: int() argument must be a string or a number, not 'PrefixOLD'
+2019-06-07 14:36:02,500:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 250, in getNumber
+    print int(pre)
+TypeError: int() argument must be a string or a number, not 'PrefixOLD'
+2019-06-07 14:40:58,184:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 14:42:23,530:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 14:42:30,316:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 245, in getNumber
+    pre = PrefixOLD.objects.get(is_active=1, prefix__contains=numero, category=numbertype).order_by('prefix')
+AttributeError: 'PrefixOLD' object has no attribute 'order_by'
+2019-06-07 14:43:07,101:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 246, in getNumber
+    pre = pre[0]
+TypeError: 'PrefixOLD' object does not support indexing
+2019-06-07 14:43:38,154:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 245, in getNumber
+    pre = PrefixOLD.objects.get(is_active=1, prefix__contains=numero, category=numbertype).order_by('prefix')
+AttributeError: 'PrefixOLD' object has no attribute 'order_by'
+2019-06-07 14:52:23,826:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 14:57:38,177:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 14:57:49,997:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    pre = pre.split(":")
+AttributeError: 'PrefixOLD' object has no attribute 'split'
+2019-06-07 15:07:38,426:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 15:26:13,661:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 15:27:53,193:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    pre = pre[pre[0]]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 265, in __getitem__
+    raise TypeError
+TypeError
+2019-06-07 15:28:40,595:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    pre = pre[0:pre[0]]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 281, in __getitem__
+    stop = int(k.stop)
+TypeError: int() argument must be a string or a number, not 'PrefixOLD'
+2019-06-07 15:29:44,312:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    pre = int(pre[0])
+TypeError: int() argument must be a string or a number, not 'PrefixOLD'
+2019-06-07 15:36:13,999:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 15:41:17,750:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 15:41:17,960:WARNING:Not Found: /favicon.ico
+2019-06-07 15:42:09,562:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 247, in getNumber
+    if numero == pr.prefix:
+AttributeError: 'dict' object has no attribute 'prefix'
+2019-06-07 15:51:18,029:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 15:54:02,948:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 15:54:09,625:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 245, in getNumber
+    pre = PrefixOLD.objects.filter(is_active=1, prefix__contains=numero, category=numbertype).get(prefix)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 371, in get
+    clone = self.filter(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1151, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2019-06-07 16:04:03,312:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 16:04:20,030:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 16:14:20,273:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 16:27:02,993:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 16:37:03,217:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 16:37:09,480:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 16:47:09,700:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 16:52:24,125:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:02:24,413:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 17:03:43,480:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:04:08,961:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:04:12,098:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 17:04:13,007:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:06:24,411:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 17:06:25,358:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:07:05,966:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 17:07:06,959:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:17:07,141:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 17:18:22,694:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:28:22,831:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 17:33:28,398:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 17:43:28,805:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 18:02:35,108:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-06-07 18:02:57,397:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 204, in getNumber
+    if data[1] == az:
+IndexError: list index out of range
+2019-06-07 18:12:35,381:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 19:12:36,003:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 20:12:36,700:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 21:12:37,492:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 22:12:38,161:INFO:----------------------------------------------------------------------------------------------------
+2019-06-07 23:12:38,677:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 00:12:38,963:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 01:12:39,499:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 02:12:40,000:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 03:12:40,578:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 04:12:41,119:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 05:12:41,618:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 06:12:42,075:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 07:12:42,746:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 08:12:43,397:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 09:12:43,832:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 10:12:44,348:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 11:12:44,864:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 12:12:45,441:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 13:12:45,973:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 14:12:46,516:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 15:12:46,990:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 16:12:47,565:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 17:12:48,039:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 18:12:48,480:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 19:12:48,956:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 20:12:49,467:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 21:12:49,976:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 22:12:50,529:INFO:----------------------------------------------------------------------------------------------------
+2019-06-08 23:12:51,040:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 00:12:51,723:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 01:12:53,612:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 02:12:54,141:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 03:12:54,759:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 04:12:55,295:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 05:12:55,903:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 06:12:56,444:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 07:12:56,855:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 08:12:57,753:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 09:12:58,164:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 10:12:58,838:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 11:12:59,418:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 12:13:00,032:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 13:13:00,980:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 14:13:01,696:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 15:13:02,489:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 16:13:03,085:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 17:13:03,885:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 18:13:05,035:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 19:13:05,734:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 20:13:06,438:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 21:13:06,888:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 22:13:07,388:INFO:----------------------------------------------------------------------------------------------------
+2019-06-09 23:13:08,006:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 00:13:08,529:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 01:13:08,959:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 02:13:09,516:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 03:13:10,032:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 04:13:10,621:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 05:13:11,226:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 06:13:11,706:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 07:13:12,148:INFO:----------------------------------------------------------------------------------------------------
+2019-06-10 08:13:12,631:INFO:----------------------------------------------------------------------------------------------------

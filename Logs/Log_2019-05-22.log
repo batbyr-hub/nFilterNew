@@ -1,0 +1,320 @@
+2019-05-22 11:49:23,565:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 11:49:25,549:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 188, in getNumber
+    if data[1] == az:
+IndexError: list index out of range
+2019-05-22 11:52:16,783:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 11:52:53,051:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 11:52:53,944:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 169, in getNumber
+    prefix = Prefix.objects.get(is_active=1, prefix__contains=start).order_by('prefix')
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 384, in get
+    (self.model._meta.object_name, num)
+MultipleObjectsReturned: get() returned more than one Prefix -- it returned 7!
+2019-05-22 11:57:32,543:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 12:07:33,114:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 12:14:26,431:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 12:24:26,696:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 12:48:10,621:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 12:48:13,806:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 12:48:13,835:ERROR:Internal Server Error: /newnumbertype
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\nFilter\controller\views.py", line 53, in getprepix
+    print selected_numbertype
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-9: ordinal not in range(128)
+2019-05-22 14:44:47,588:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 14:44:47,605:ERROR:Internal Server Error: /newnumbertype
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\nFilter\controller\views.py", line 51, in getprepix
+    logging.info("Ð”Ð£Ð“ÐÐÐ Ð«Ð Ò®ÐÐ­")
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-9: ordinal not in range(128)
+2019-05-22 14:45:58,645:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 14:45:59,966:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 14:45:59,973:ERROR:Internal Server Error: /newnumbertype
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\nFilter\controller\views.py", line 51, in getprepix
+    logging.info("Ð”Ð£Ð“ÐÐÐ Ð«Ð Ò®ÐÐ­")
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-9: ordinal not in range(128)
+2019-05-22 14:46:02,306:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 14:46:02,312:ERROR:Internal Server Error: /newnumbertype
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\nFilter\controller\views.py", line 50, in getprepix
+    def numberPrice(request):
+NameError: global name 'numbertypes' is not defined
+2019-05-22 14:51:49,940:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 14:51:52,200:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:01:52,437:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 15:08:46,010:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 15:08:47,338:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:12:00,569:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:14:34,549:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:16:02,042:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 170, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-22 15:17:40,151:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:18:45,061:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:28:45,674:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 15:28:46,082:WARNING:Not Found: /favicon.ico
+2019-05-22 15:28:49,158:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:30:00,950:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 15:31:49,611:INFO:ДУГААРЫН ҮНЭ
+2019-05-22 15:31:49,612:ERROR:Internal Server Error: /numberPrice
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\nFilter\controller\views.py", line 54, in numberPrice
+    selected_numbertype = NumberType.objects.get(id=numbertype)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 371, in get
+    clone = self.filter(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1210, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1104, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "C:\Python27\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Python27\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 966, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-22 15:31:54,914:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 16:01:14,987:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:01:16,334:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 195, in getNumber
+    if data[1] == az:
+IndexError: list index out of range
+2019-05-22 16:03:20,411:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:09:15,371:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:09:52,880:INFO:ДУГААРЫН ҮНЭ
+2019-05-22 16:09:52,881:ERROR:Internal Server Error: /numberPrice
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\nFilter\controller\views.py", line 54, in numberPrice
+    selected_numbertype = NumberType.objects.get(id=numbertype)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 371, in get
+    clone = self.filter(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1210, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1104, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "C:\Python27\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Python27\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 966, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2019-05-22 16:12:08,578:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:12:09,970:INFO:ДУГААРЫН ҮНЭ
+2019-05-22 16:12:16,431:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:12:30,538:INFO:ДУГААРЫН ҮНЭ
+2019-05-22 16:12:31,627:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:14:54,464:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 16:14:55,684:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:15:45,818:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 16:15:50,427:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:18:23,009:INFO:ДУГААРЫН ҮНЭ
+2019-05-22 16:25:50,529:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 16:25:51,082:WARNING:Not Found: /favicon.ico
+2019-05-22 16:32:03,714:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:37:36,862:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:41:29,806:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 16:51:29,984:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 17:01:44,983:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:15:37,710:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:15:37,716:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:20:19,586:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 17:20:19,683:WARNING:Not Found: /favicon.ico
+2019-05-22 17:20:21,871:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:20:36,552:INFO:РЕГИСТЕРИЙН ДУГААР
+2019-05-22 17:20:51,503:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:20:59,496:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:21:05,869:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:21:09,683:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:21:23,171:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:21:31,706:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 17:21:33,453:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-22 17:21:37,262:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 169, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-22 17:31:33,676:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 18:31:34,293:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 19:31:34,881:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 20:31:35,461:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 20:31:36,030:WARNING:Not Found: /favicon.ico
+2019-05-22 21:31:36,118:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 22:31:36,733:INFO:----------------------------------------------------------------------------------------------------
+2019-05-22 23:31:37,233:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 00:31:37,848:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 01:31:38,351:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 02:31:38,854:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 03:31:45,967:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 04:31:46,714:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 05:31:47,194:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 06:31:47,701:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 07:31:48,197:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 08:31:48,691:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 09:31:49,365:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 10:31:49,924:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 11:31:50,529:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 12:31:51,108:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 13:31:51,805:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 13:31:52,365:WARNING:Not Found: /favicon.ico
+2019-05-23 14:31:52,440:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 15:31:52,947:INFO:----------------------------------------------------------------------------------------------------

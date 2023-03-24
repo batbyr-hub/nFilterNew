@@ -1,0 +1,809 @@
+2019-05-23 16:01:37,832:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-23 16:11:38,072:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 16:30:01,466:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-23 16:30:05,249:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 173, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:40:01,681:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 16:53:51,457:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-23 16:53:51,611:WARNING:Not Found: /favicon.ico
+2019-05-23 16:55:16,582:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:55:36,872:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:55:55,296:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:55:57,640:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:02,315:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:03,963:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:05,851:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:14,681:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:32,243:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:32,967:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:38,306:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:56:39,059:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:19,348:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 16:59:20,585:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-23 16:59:23,598:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:25,451:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:27,983:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 173, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:36,788:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 173, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:37,171:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:37,387:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:48,026:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:52,796:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:54,282:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:57,834:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 16:59:59,569:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 17:00:02,351:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 17:00:09,994:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 167, in getNumber
+    start = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-23 17:09:20,799:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:11:16,381:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-23 17:21:16,566:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:27:02,247:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:27:12,062:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:27:22,368:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:28:46,391:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:29:00,022:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:29:10,677:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:29:21,986:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:29:58,326:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:30:16,507:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 17:30:56,882:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:11:52,046:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:12:07,819:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:16:36,250:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:17:01,888:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:17:10,970:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:17:16,871:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:17:44,023:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:18:05,744:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:20:21,223:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:20:39,440:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:21:25,880:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:24:01,769:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:24:25,266:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:25:08,980:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:26:06,653:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:26:20,114:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:26:22,589:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:26:40,608:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:26:41,888:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:28:10,548:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:30:14,657:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:30:34,987:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:31:13,111:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:31:22,121:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:31:50,430:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:41:18,759:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:42:45,604:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:43:16,523:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:45:14,769:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:45:32,433:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:48:42,710:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 18:49:09,236:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 19:49:09,548:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 19:49:10,069:WARNING:Not Found: /favicon.ico
+2019-05-23 20:49:10,335:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 21:49:11,082:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 22:49:11,607:INFO:----------------------------------------------------------------------------------------------------
+2019-05-23 23:49:12,131:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 00:49:12,798:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 00:49:13,348:WARNING:Not Found: /favicon.ico
+2019-05-24 01:49:13,453:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 02:49:14,059:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 03:49:14,621:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 04:49:15,217:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 05:49:15,724:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 06:49:16,348:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 07:49:17,088:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 08:49:17,717:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 09:49:18,263:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 10:49:18,785:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:35:03,209:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:35:03,733:WARNING:Not Found: /favicon.ico
+2019-05-24 11:36:02,581:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:38:14,976:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:41:41,450:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:42:35,150:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:43:39,535:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:49:54,174:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 11:51:41,871:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 12:51:42,390:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 13:51:42,996:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 14:51:43,604:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 15:51:44,328:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 16:51:45,023:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 17:51:45,584:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 18:51:46,130:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 19:51:46,759:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 20:51:47,421:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 21:51:47,997:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 22:51:48,622:INFO:----------------------------------------------------------------------------------------------------
+2019-05-24 23:51:49,207:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 00:51:49,848:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 01:51:50,494:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 02:51:51,088:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 03:51:51,742:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 04:51:52,315:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 05:51:52,992:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 06:51:53,536:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 07:51:54,081:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 08:51:54,641:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 09:51:55,417:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 10:51:56,029:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 11:51:56,717:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 12:51:57,516:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 13:51:58,040:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 14:51:58,602:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 15:51:59,144:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 16:51:59,805:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 17:52:00,437:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 17:52:01,069:WARNING:Not Found: /favicon.ico
+2019-05-25 18:52:01,283:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 19:52:01,944:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 20:52:02,467:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 21:52:03,029:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 22:52:03,589:INFO:----------------------------------------------------------------------------------------------------
+2019-05-25 23:52:07,905:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 00:52:09,605:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 01:52:10,177:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 02:52:10,750:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 03:52:11,311:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 04:52:11,921:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 05:52:12,627:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 06:52:13,165:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 07:52:13,724:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 08:52:14,358:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 09:52:14,951:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 10:52:15,502:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 11:52:16,111:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 12:52:16,796:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 13:52:17,424:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 14:52:17,959:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 15:52:18,512:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 16:52:19,042:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 17:52:19,707:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 18:52:20,315:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 19:52:20,934:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 19:52:21,428:WARNING:Not Found: /favicon.ico
+2019-05-26 20:52:21,450:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 21:52:22,105:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 22:52:22,724:INFO:----------------------------------------------------------------------------------------------------
+2019-05-26 23:52:23,296:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 00:52:23,187:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 01:52:24,530:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 02:52:25,092:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 03:52:25,703:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 04:52:26,344:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 05:52:27,102:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 06:52:27,657:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 07:52:28,273:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 08:52:28,874:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 08:52:29,367:WARNING:Not Found: /favicon.ico
+2019-05-27 09:52:29,436:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 10:52:32,954:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 11:52:33,507:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 11:52:34,020:WARNING:Not Found: /favicon.ico
+2019-05-27 12:52:34,089:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 13:52:34,663:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 14:52:35,289:INFO:----------------------------------------------------------------------------------------------------

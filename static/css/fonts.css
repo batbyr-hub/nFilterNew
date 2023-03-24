@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'RobotoCondensed';
+    font-weight: normal;
+    src: url('Roboto font/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    font-weight: bold;
+    src: url('Roboto font/RobotoCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensedLight';
+    font-weight: normal;
+    src: url('Roboto font/RobotoCondensed-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensedLight';
+    font-weight: normal;
+    font-style: italic;
+    src: url('Roboto font/RobotoCondensed-LightItalic.ttf') format('truetype');
+}
+
+/*
+ * Mak Universe
+ */
+@font-face {
+    font-family: 'MakUniverse';
+    src: url('../fonts/makuniverse/MAKUniverseUltraCondensedRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MakUniverse';
+    font-weight: bold;
+    src: url('../fonts/makuniverse/MAKUniverseUltraCondensedBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MakUniverse';
+    font-style: italic;
+    src: url('../fonts/makuniverse/MAKUniverseUltraCondensedRegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MakUniverse';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../fonts/makuniverse/MAKUniverseUltraCondensedBoldItalic.ttf') format('truetype');
+}
+
+/*
+ * Mak University
+ */
+@font-face {
+    font-family: 'MakUniversity';
+    src: url('../fonts/makuniverse/MAKUniversity.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MakUniversity';
+    font-weight: bold;
+    src: url('../fonts/makuniverse/MAKUniversityBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MakUniversity';
+    font-style: italic;
+    src: url('../fonts/makuniverse/MAKUniversityItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MakUniversity';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../fonts/makuniverse/MAKUniversityBoldItalic.ttf') format('truetype');
+}

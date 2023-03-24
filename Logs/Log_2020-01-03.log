@@ -1,0 +1,275 @@
+2020-01-03 15:33:39,937:INFO:----------------------------------------------------------------------------------------------------
+2020-01-03 15:33:42,992:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:33:42,993:INFO:7
+2020-01-03 15:33:42,998:INFO:48
+2020-01-03 15:33:42,998:INFO:['9800', '9809', '9810', '8300', '9700', '9300', '9301', '9302', '9303', '9304', '9305', '9306', '9307', '9308', '9309', '9310', '9801', '9802', '9803', '9804', '9805', '9806', '9807', '9808', '8301', '8302', '8303', '8304', '8305', '8306', '8307', '8308', '8309', '8310', '9701', '9702', '9703', '9704', '9705', '9706', '9707', '9708', '9709', '9710', '9811', '8311', '9711', '9311']
+2020-01-03 15:33:43,175:WARNING:Not Found: /favicon.ico
+2020-01-03 15:33:55,937:INFO:----------------------------------------------------------------------------------------------------
+2020-01-03 15:33:57,095:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:33:57,095:INFO:2
+2020-01-03 15:33:57,100:INFO:102
+2020-01-03 15:33:57,101:INFO:['9812', '9813', '9814', '9815', '9816', '9817', '9818', '9819', '9820', '9821', '9822', '9823', '9824', '9825', '9826', '9827', '9828', '9829', '9830', '9831', '9832', '9833', '9838', '9842', '9843', '9848', '9851', '9856', '9859', '9860', '9861', '9862', '9863', '9864', '9865', '9866', '9870', '9880', '9881', '9882', '9883', '9884', '9885', '9886', '9887', '9888', '9889', '9890', '9891', '9892', '9893', '9894', '9895', '9896', '9897', '9899', '9312', '9313', '9314', '9315', '9316', '9317', '9318', '9319', '9320', '9321', '9322', '9323', '9324', '9325', '9326', '9327', '9328', '9329', '9330', '9331', '9337', '9338', '9339', '9340', '9341', '9342', '9343', '9344', '9712', '9713', '9714', '9715', '9716', '9717', '9718', '9719', '9845', '9846', '8312', '8313', '8314', '8315', '8316', '8317', '8318', '8319']
+2020-01-03 15:33:57,207:WARNING:Not Found: /favicon.ico
+2020-01-03 15:35:57,661:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:43:57,246:INFO:----------------------------------------------------------------------------------------------------
+2020-01-03 15:44:33,123:INFO:----------------------------------------------------------------------------------------------------
+2020-01-03 15:44:33,907:WARNING:Not Found: /apple-touch-icon-120x120-precomposed.png
+2020-01-03 15:44:33,931:WARNING:Not Found: /apple-touch-icon-120x120.png
+2020-01-03 15:44:34,086:WARNING:Not Found: /apple-touch-icon-precomposed.png
+2020-01-03 15:44:34,105:WARNING:Not Found: /apple-touch-icon.png
+2020-01-03 15:44:35,677:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:44:35,677:INFO:7
+2020-01-03 15:44:35,682:INFO:48
+2020-01-03 15:44:35,682:INFO:['9800', '9809', '9810', '8300', '9700', '9300', '9301', '9302', '9303', '9304', '9305', '9306', '9307', '9308', '9309', '9310', '9801', '9802', '9803', '9804', '9805', '9806', '9807', '9808', '8301', '8302', '8303', '8304', '8305', '8306', '8307', '8308', '8309', '8310', '9701', '9702', '9703', '9704', '9705', '9706', '9707', '9708', '9709', '9710', '9811', '8311', '9711', '9311']
+2020-01-03 15:44:35,813:WARNING:Not Found: /favicon.ico
+2020-01-03 15:45:09,732:INFO:ДУГААРЫН ҮНЭ
+2020-01-03 15:45:09,736:INFO:10000
+2020-01-03 15:45:11,030:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:45:11,031:INFO:7
+2020-01-03 15:45:11,035:INFO:48
+2020-01-03 15:45:11,035:INFO:['9800', '9809', '9810', '8300', '9700', '9300', '9301', '9302', '9303', '9304', '9305', '9306', '9307', '9308', '9309', '9310', '9801', '9802', '9803', '9804', '9805', '9806', '9807', '9808', '8301', '8302', '8303', '8304', '8305', '8306', '8307', '8308', '8309', '8310', '9701', '9702', '9703', '9704', '9705', '9706', '9707', '9708', '9709', '9710', '9811', '8311', '9711', '9311']
+2020-01-03 15:45:11,144:WARNING:Not Found: /favicon.ico
+2020-01-03 15:45:15,871:INFO:ДУГААРЫН ҮНЭ
+2020-01-03 15:45:15,874:INFO:10000
+2020-01-03 15:45:16,874:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:45:16,874:INFO:7
+2020-01-03 15:45:16,879:INFO:48
+2020-01-03 15:45:16,879:INFO:['9800', '9809', '9810', '8300', '9700', '9300', '9301', '9302', '9303', '9304', '9305', '9306', '9307', '9308', '9309', '9310', '9801', '9802', '9803', '9804', '9805', '9806', '9807', '9808', '8301', '8302', '8303', '8304', '8305', '8306', '8307', '8308', '8309', '8310', '9701', '9702', '9703', '9704', '9705', '9706', '9707', '9708', '9709', '9710', '9811', '8311', '9711', '9311']
+2020-01-03 15:45:23,529:INFO:ДУГААРЫН ҮНЭ
+2020-01-03 15:45:23,532:INFO:10000
+2020-01-03 15:45:25,213:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:45:25,213:INFO:7
+2020-01-03 15:45:25,218:INFO:48
+2020-01-03 15:45:25,218:INFO:['9800', '9809', '9810', '8300', '9700', '9300', '9301', '9302', '9303', '9304', '9305', '9306', '9307', '9308', '9309', '9310', '9801', '9802', '9803', '9804', '9805', '9806', '9807', '9808', '8301', '8302', '8303', '8304', '8305', '8306', '8307', '8308', '8309', '8310', '9701', '9702', '9703', '9704', '9705', '9706', '9707', '9708', '9709', '9710', '9811', '8311', '9711', '9311']
+2020-01-03 15:45:39,059:INFO:----------------------------------------------------------------------------------------------------
+2020-01-03 15:45:41,334:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:45:41,334:INFO:2
+2020-01-03 15:45:41,340:INFO:102
+2020-01-03 15:45:41,340:INFO:['9812', '9813', '9814', '9815', '9816', '9817', '9818', '9819', '9820', '9821', '9822', '9823', '9824', '9825', '9826', '9827', '9828', '9829', '9830', '9831', '9832', '9833', '9838', '9842', '9843', '9848', '9851', '9856', '9859', '9860', '9861', '9862', '9863', '9864', '9865', '9866', '9870', '9880', '9881', '9882', '9883', '9884', '9885', '9886', '9887', '9888', '9889', '9890', '9891', '9892', '9893', '9894', '9895', '9896', '9897', '9899', '9312', '9313', '9314', '9315', '9316', '9317', '9318', '9319', '9320', '9321', '9322', '9323', '9324', '9325', '9326', '9327', '9328', '9329', '9330', '9331', '9337', '9338', '9339', '9340', '9341', '9342', '9343', '9344', '9712', '9713', '9714', '9715', '9716', '9717', '9718', '9719', '9845', '9846', '8312', '8313', '8314', '8315', '8316', '8317', '8318', '8319']
+2020-01-03 15:45:41,445:WARNING:Not Found: /favicon.ico
+2020-01-03 15:45:42,764:INFO:ДУГААРЫН ҮНЭ
+2020-01-03 15:45:42,767:INFO:5000
+2020-01-03 15:45:43,822:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2020-01-03 15:45:43,822:INFO:2
+2020-01-03 15:45:43,827:INFO:102
+2020-01-03 15:45:43,827:INFO:['9812', '9813', '9814', '9815', '9816', '9817', '9818', '9819', '9820', '9821', '9822', '9823', '9824', '9825', '9826', '9827', '9828', '9829', '9830', '9831', '9832', '9833', '9838', '9842', '9843', '9848', '9851', '9856', '9859', '9860', '9861', '9862', '9863', '9864', '9865', '9866', '9870', '9880', '9881', '9882', '9883', '9884', '9885', '9886', '9887', '9888', '9889', '9890', '9891', '9892', '9893', '9894', '9895', '9896', '9897', '9899', '9312', '9313', '9314', '9315', '9316', '9317', '9318', '9319', '9320', '9321', '9322', '9323', '9324', '9325', '9326', '9327', '9328', '9329', '9330', '9331', '9337', '9338', '9339', '9340', '9341', '9342', '9343', '9344', '9712', '9713', '9714', '9715', '9716', '9717', '9718', '9719', '9845', '9846', '8312', '8313', '8314', '8315', '8316', '8317', '8318', '8319']
+2020-01-03 15:45:43,896:WARNING:Not Found: /favicon.ico
+2020-01-03 15:47:38,077:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:48:02,653:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:49:59,389:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:50:23,965:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:51:13,117:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:51:13,117:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 15:54:58,397:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/nFilterNew/controller/views.py", line 133, in getNumber
+    socket_results = FilternumberBlockUnblock("filter", "", utga, prefix, az, "")
+  File "/home/nFilterNew/controller/views.py", line 92, in FilternumberBlockUnblock
+    soc.connect(('10.10.10.173', 8088))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2020-01-03 17:41:27,053:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.
+2020-01-03 17:52:12,000:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.
+2020-01-03 17:59:14,839:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.
+2020-01-03 18:59:07,459:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.

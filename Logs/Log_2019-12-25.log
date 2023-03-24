@@ -1,0 +1,5 @@
+2019-12-25 18:17:46,901:ERROR:Invalid HTTP_HOST header: u'DugaarShuult:8000'. You may need to add u'dugaarshuult' to ALLOWED_HOSTS.
+2019-12-25 18:36:04,333:WARNING:Not Found: /nmaplowercheck1577270122
+2019-12-25 18:36:04,849:WARNING:Not Found: /evox/about
+2019-12-25 18:36:06,719:WARNING:Not Found: /HNAP1
+2019-12-25 21:08:18,840:WARNING:Not Found: /

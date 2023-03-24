@@ -1,0 +1,133 @@
+2019-05-27 15:52:36,043:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 16:21:31,099:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-27 16:21:31,345:WARNING:Not Found: /favicon.ico
+2019-05-27 16:21:56,937:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 173, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-27 16:21:59,937:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 173, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-27 16:22:02,937:ERROR:Internal Server Error: /getnumber
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python27\lib\site-packages\rest_framework\views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\rest_framework\decorators.py", line 52, in handler
+    return func(*args, **kwargs)
+  File "D:\nFilter\controller\views.py", line 173, in getNumber
+    prefix = prefix[0]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+2019-05-27 16:22:18,206:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 16:22:19,809:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-27 16:23:24,289:INFO:ДУГААРЫН ҮНЭ
+2019-05-27 16:32:19,960:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 17:23:25,710:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 17:31:55,153:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 17:39:10,523:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 18:00:57,581:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 19:00:58,032:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 20:00:58,484:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 21:00:59,555:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 22:01:00,092:INFO:----------------------------------------------------------------------------------------------------
+2019-05-27 23:01:00,634:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 00:01:00,897:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 01:01:01,450:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 02:01:02,071:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 03:01:02,520:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 04:01:02,964:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 05:01:03,496:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 06:01:04,013:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 07:01:04,595:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 08:01:05,148:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 09:01:05,667:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 10:01:06,295:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 11:01:06,940:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 12:01:07,447:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 12:31:50,714:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 12:31:50,963:WARNING:Not Found: /favicon.ico
+2019-05-28 12:34:25,565:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 12:34:25,980:WARNING:Not Found: /favicon.ico
+2019-05-28 12:37:37,247:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 12:37:37,668:WARNING:Not Found: /favicon.ico
+2019-05-28 12:37:53,204:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 12:37:53,443:WARNING:Not Found: /favicon.ico
+2019-05-28 12:47:53,447:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 13:47:53,930:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 14:38:14,605:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 14:38:28,815:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 14:38:30,221:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 14:42:29,177:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 14:44:34,082:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 14:44:34,398:WARNING:Not Found: /favicon.ico
+2019-05-28 14:54:34,375:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 14:59:13,121:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 14:59:20,894:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 14:59:24,401:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 15:08:22,128:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 15:08:22,609:WARNING:Not Found: /favicon.ico
+2019-05-28 15:08:44,631:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 15:08:44,845:WARNING:Not Found: /favicon.ico
+2019-05-28 15:18:44,842:INFO:----------------------------------------------------------------------------------------------------
+2019-05-28 15:23:17,338:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 15:23:17,454:WARNING:Not Found: /favicon.ico
+2019-05-28 15:24:46,792:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ
+2019-05-28 15:26:28,138:INFO:ДУГААРАА СОНГОЖ БУЙ ХЭСЭГ

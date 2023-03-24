@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta http-equiv="refresh" content="3600;url=/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Дугаар шүүлт</title>
+    <link href="{% static "css/bootstrap/bootstrap.css" %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static "css/fonts.css" %}" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/png" href="{% static 'images/new_design_images/Logo 1.png' %}"/>
+</head>
+<body>
+    <div class="layer">
+        <div class="container">
+            <div class="ks_header">
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="http://gmobile.mn/images/logo.svg" class="img-responsive" style="width: 200px"/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="huree" style="border: 1px solid white; background-color: #FFB300; margin-left: 15px; margin-right: 15px">
+                <p class="useg" style="text-align: center; font-size: xx-large; margin-top: 10px;">ҮЙЛЧИЛГЭЭНИЙ ТӨРӨЛ СОНГОХ</p>
+            </div>
+
+            <div class="row" style="margin-bottom: 25%">
+                <div class="col-lg-3" style="text-align: center;">
+                    <a href="/postpaid?numbertype=7&az=6" style="margin-left: 10px">
+                        <img src="{% static 'images/new_design_images/sim/postpaid.png' %}">
+                    </a>
+                    <p class="useg" style="width: 240px; margin-left: 15px; margin-top: 15px; font-size: 15px;">Хэрэглээнд тохирсон хамгийн олон сонголттой ХЯЗГААРГҮЙ ДАТА эрхтэй Дараа төлбөрт үйлчилгээ</p>
+                </div>
+                <div class="col-lg-3" style="text-align: center;">
+                    <a href="/prepaid?numbertype=2&az=6">
+                        <img src="{% static 'images/new_design_images/sim/prepaid.png' %}">
+                    </a>
+                    <p class="useg" style="width: 240px; margin-left: 15px; margin-top: 15px; font-size: 15px;">Ярианы тарифаа хүссэнээрээ сонгох боломжтой ХАМГИЙН ХЯМД Урьдчилсан төлбөрт үйлчилгээ</p>
+                </div>
+                <div class="col-lg-3" style="text-align: center;">
+                    <a href="/prepaid?numbertype=3&az=6">
+                        <img src="{% static 'images/new_design_images/sim/Internet.png' %}">
+                    </a>
+                    <p class="useg" style="width: 240px; margin-left: 15px; margin-top: 15px; font-size: 15px;">Гар утас, модем бусад төрлийн интернет төхөөрөмжид ашиглах боломжтой ДАТА дугаарууд</p>
+                </div>
+                <div class="col-lg-3" style="text-align: center;">
+                    <a href="/prepaid?numbertype=4&az=6">
+                        <img src="{% static 'images/new_design_images/sim/Internetphone.png' %}">
+                    </a>
+                    <p class="useg" style="width: 235px; margin-left: 15px; margin-top: 15px; font-size: 15px;">Дэлхийн хаанаас ч интернет сүлжээ ашиглан МОНГОЛ руу хамгийн хямдаар яриа, мессеж хийх боломжтой үйлчилгээ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
