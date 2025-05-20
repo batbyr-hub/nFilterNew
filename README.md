@@ -29,3 +29,5 @@ python manage.py migrate
 
 # Start the server
 python manage.py runserver
+
+[Django Developer | Python & PostgreSQL](https://github.com/batbyr-hub)
