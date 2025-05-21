@@ -1,0 +1,14 @@
+.btn{color:#FFF;font-family:Arial, Helvetica, sans-serif;font-size:30px;}
+.head_tarif{color:#000;font-family:Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;}
+.too{border-top:2px solid white;border-left:2px solid white;border-bottom:2px solid white;border-right:2px solid white;color:#FFF;font-family:Arial, Helvetica, sans-serif;font-size:94px;font-weight:bold;}
+table.tarif{border-width:1px;border-style:solid;border-color:black;}
+table.tarif th{border-width:0px;border-style:solid;border-color:black;font-family:Arial, Helvetica, sans-serif;font-size:16px;}
+table.tarif td{border-width:0px;border-style:solid;border-color:black;font-family:Arial, Helvetica, sans-serif;font-size:16px;}
+.series{font-family:Arial, Helvetica, sans-serif;font-size:32px;font-style:normal;font-weight:bold;background-color:#FFF;list-style-position:outside;list-style-type:circle;}
+.main_head{font-family:Arial, Helvetica, sans-serif;font-size:42px;color:#000;font-style:normal;font-weight:bold;list-style-position:outside;list-style-type:circle;}
+.sub_name{background-color:#fffbcc;border-top:1px solid black;border-left:1px solid black;border-bottom:1px solid black;border-right:1px solid black;}
+.order_btm{font-family:Arial, Helvetica, sans-serif;color:#6D6E71;font-size:36px;}
+.order_btm_desc{font-family:Arial, Helvetica, sans-serif;color:#000000;font-size:24px;}
+.fin{font-family:Arial, Helvetica, sans-serif;color:#6D6E71;font-size:24px;}
+
+.btn_old{color:#FFF;font-family:Arial, Helvetica, sans-serif;font-size:30px; background-size: cover;}

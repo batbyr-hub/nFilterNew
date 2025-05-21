@@ -1,0 +1,92 @@
+@-webkit-keyframes gradientAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+h1,
+h2 {
+  font-weight: 300;
+  margin: 100px 0 50px;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.content-wrapper {
+  margin: 100px auto;
+  text-align: center;
+}
+.action-link {
+  display: block;
+  margin: 0 auto 50px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ffb324;
+  color: #000;
+  padding: 20px 50px;
+  overflow: hidden;
+  max-width: 200px;
+}
+.action-link .link-content {
+  position: relative;
+  z-index: 3;
+  -webkit-transition: color 0.35s;
+  transition: color 0.35s;
+  font-weight: 300;
+}
+
+.pulse {
+  background-color: #ffc324;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.pulse:hover {
+  background-color: #F5F5F5;
+}
+.pulse:hover .link-content {
+  color: #333333;
+}
+

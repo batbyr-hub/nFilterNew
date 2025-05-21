@@ -1,0 +1,324 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+		-webkit-touch-callout: none;
+			-webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+    background-color: #f2f2f2;
+}
+.head h1
+{
+		font-size: 32px;
+    font-weight: bold;
+}
+.head p
+{
+    font-size: 20px;
+    font-weight: regular;
+		line-height: 30px;
+}
+.toolbar
+{
+    display: none;
+    margin-top: 18px;
+    text-align: right;
+}
+.toolbar-mobile
+{
+    margin-top: 15px;
+}
+.toolbar button,
+.toolbar-mobile button
+{
+    font-size: 21px;
+    font-size: 2vw;
+    padding: 15px 23px;
+    border-color: #e6e6e6;
+    border-radius: 3px;
+    background: #fafafa;
+}
+.toolbar .timer,
+.toolbar-mobile .timer
+{
+    font-size: 25px;
+    font-size: 2.5vw;
+    font-weight: normal;
+    line-height: 1.3333333;
+    display: inline-block;
+    padding: 5px 14px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: #5cb85c;
+}
+.phone
+{
+		margin: 0 0 5% 0;
+}
+.phone div
+{
+    font-size: 5.4vw;
+    border: transparent;
+    outline: transparent;
+}
+.phone .countrycode
+{
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+.phone .number
+{
+    display: inline-block;
+    text-align: left;
+    color: #e0e0e0;
+    border-bottom: 1px solid #ccc;
+}
+.phone .number.active
+{
+    color: #000;
+}
+.phone .maxlength > .countrycode,
+.phone .maxlength > .number
+{
+    color: #ffc324;
+}
+.content
+{
+    background-color: #fff;
+}
+.numpad
+{
+    border-top: 1px solid #ccc;
+}
+.numpad ul
+{
+    bottom: 0;
+    margin: 2% 8%;
+    padding: 0;
+}
+.numpad li
+{
+    font-size: 2em;
+    line-height: 1.33333;
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+    padding: 3% 0;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.numpad li.disable,
+.numpad li.disable:hover,
+.numpad li.disable:active
+{
+    cursor: not-allowed;
+    color: #ccc;
+    border-color: #ccc;
+    background-color: #f2f2f2;
+    box-shadow: none;
+}
+.numpad .active
+{
+    color: #fff;
+    border-color: #ffb300;
+    background-color: #ffc324;
+}
+.numpad li[data-type = confirm]:hover
+{
+    color: #fff;
+    border-color: #fff300;
+    background-color: #ffc324;
+}
+.numpad li:hover
+{
+    border-color: #adadad;
+    background-color: #e6e6e6;
+}
+.numpad li:active
+{
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+            box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.numpad > div
+{
+    width: 50%;
+    margin: auto;
+}
+.numpad button {
+	  font-size: 2em;
+    line-height: 1.33333;
+    margin: auto;
+    display: block;
+}
+.confirm
+{
+    font-size: 19px !important;
+    font-weight: bold !important;
+
+}
+.backspace
+{
+    color: #d9534f;
+}
+.error{
+    color: #d9534f;
+}
+/*==================================================
+=                   Media Queries                 =
+==================================================*/
+@media(max-width:319px)
+{
+    .phone div
+    {
+        font-size: 22px;
+        font-size: 8vw;
+    }
+    .toolbar button,
+    .toolbar-mobile button
+    {
+        font-size: 21px;
+        font-size: 6vw;
+        padding: 10px 0;
+    }
+    .toolbar .timer,
+    .toolbar-mobile .timer
+    {
+        font-size: 25px;
+        font-size: 5vw;
+        margin-top: 15%;
+    }
+    .numpad > div
+    {
+        width: 100%;
+    }
+}
+@media(min-width:320px)
+{
+    .phone div
+    {
+        font-size: 30px;
+        font-size: 8vw;
+    }
+    .toolbar button,
+    .toolbar-mobile button
+    {
+        font-size: 21px;
+        font-size: 6vw;
+        padding: 10px 2px;
+    }
+    .toolbar .timer,
+    .toolbar-mobile .timer
+    {
+        font-size: 25px;
+        font-size: 5vw;
+        margin-top: 12%;
+    }
+    .numpad > div
+    {
+        width: 90%;
+    }
+}
+@media(min-width:420px)
+{
+    .phone div
+    {
+        font-size: 40px;
+        font-size: 8vw;
+    }
+    .toolbar button,
+    .toolbar-mobile button
+    {
+        font-size: 21px;
+        font-size: 3.5vw;
+        padding: 10px 2px;
+    }
+    .toolbar .timer,
+    .toolbar-mobile .timer
+    {
+        font-size: 25px;
+        font-size: 3vw;
+        margin-top: 8%;
+    }
+    .numpad > div
+    {
+        width: 80%;
+    }
+
+}
+@media(min-width:768px)
+{
+    .phone div
+    {
+        font-size: 60px;
+        font-size: 6.5vw;
+    }
+    .toolbar-mobile
+    {
+        display: none;
+    }
+    .toolbar
+    {
+        display: block;
+    }
+    .toolbar button,
+    .toolbar-mobile button
+    {
+        font-size: 25px;
+        font-size: 3vw;
+        margin-left: 4px;
+        padding: 15px 14px;
+    }
+    .toolbar .timer,
+    .toolbar-mobile .timer
+    {
+        font-size: 25px;
+        font-size: 3vw;
+        margin-top: initial;
+    }
+    .numpad > div
+    {
+        width: 65%;
+    }
+}
+@media(min-width:992px)
+{
+    .phone div
+    {
+        font-size: 50px;
+        font-size: 5vw;
+    }
+    .toolbar button,
+    .toolbar-mobile button
+    {
+        font-size: 25px;
+        font-size: 2vw;
+    }
+    .toolbar .timer,
+    .toolbar-mobile .timer
+    {
+        font-size: 25px;
+        font-size: 2.5vw;
+        margin-top: initial;
+    }
+    .numpad > div
+    {
+        width: 50%;
+    }
+		.numpad button {
+				position: absolute;
+				right: 8%;
+				margin-top: -75px;
+				font-size: 2em;
+				line-height: 1.33333;
+				border-radius: 3px;
+		}
+}

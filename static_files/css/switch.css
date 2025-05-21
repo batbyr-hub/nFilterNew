@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+/* Variables */
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  80% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  80% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+body {
+  letter-spacing: 4px;
+  font-family: "Lato";
+  background: #fff;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#menu-button {
+  width: 250px;
+  background: #ffc324;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  margin: 40px auto;
+}
+#menu-button:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #ffc324 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -15px;
+  left: 110px;
+}
+
+
+.menu-container {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.menu-container li {
+  width: 400px;
+  text-align: center;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: perspective(350px) rotateX(-90deg);
+          transform: perspective(350px) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-transition: 0.2s linear 0s;
+  transition: 0.2s linear 0s;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  -webkit-transform: perspective(350px) rotateX(0deg) !important;
+          transform: perspective(350px) rotateX(0deg) !important;
+}
+.menu-container li:nth-child(1) {
+  background: #c6c6c6;
+ 
+}
+.menu-container li:nth-child(2) {
+  background: #c6c6c6;
+  
+}
+.menu-container li:nth-child(3) {
+  background: #9a9898;
+ 
+}
+.menu-container li:nth-child(4) {
+  background: #f5f5f5;
+  
+}
+.menu-container li:nth-child(5) {
+  background: #f5f5f5;
+  
+}
