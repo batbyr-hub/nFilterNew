@@ -1,6 +1,7 @@
 # Byte-compiled / cache files
 __pycache__/
 *.py[cod]
+*.pyc
 *.log
 
 # Django database
