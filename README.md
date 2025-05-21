@@ -37,6 +37,10 @@ http://localhost:8000
 
 You’ll see the phone number filter tool.
 
+![App Screenshot](images/nFilterNew1.png)
+![App Screenshot](images/nFilterNew2.png)
+
+
 ### Features:
 - 🔍 Enter filter conditions in the form (e.g., prefix, length, etc.)
 - 🧹 View results based on your criteria
