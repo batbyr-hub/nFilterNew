@@ -1,0 +1,26 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.log
+
+# Django database
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+env/
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Django migrations cache
+*/migrations/__pycache__/
