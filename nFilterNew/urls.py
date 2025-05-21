@@ -13,7 +13,8 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
+#from django.conf.urls import url, include
+from django.urls import path, re_path, include
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
@@ -21,17 +22,18 @@ from django.conf import settings
 from controller import views
 
 urlpatterns = [
-                  url(r'^admin/', admin.site.urls),
-                  url(r'^$', views.index),
-                  url(r'^prepaid', views.getprepix),
-                  url(r'^postpaid', views.getprepix),
-                  url(r'^numberPrice', views.numberPrice),
-                  url(r'^registr', views.registrDugaar),
-                  url(r'^zahialga', views.zahialga),
+                  path('admin/', admin.site.urls),
+                  path('', views.index),
+                  path('prepaid', views.getprepix),
+                  path('postpaid', views.getprepix),
+                  path('numberPrice', views.numberPrice),
+                  path('registr', views.registrDugaar),
+                  path('zahialga', views.zahialga),
 
                   # url(r'^getprefix$',views.getPrefix),
-                  url(r'^getnumber$', views.getNumber),
+                  path('getnumber/', views.getNumber),
 
-                  url(r'^api/', include('myapi.urls')),
+                  path('api/', include('myapi.urls')),
 
-              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+              #] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])

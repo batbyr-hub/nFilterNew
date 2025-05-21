@@ -12,8 +12,12 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+from pathlib import Path
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,7 +29,7 @@ SECRET_KEY = 'gpnqt-toa4u9p4o^uw(=3-wge)kumfp-n-l7m60jlu&d4*f+#l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.200.251', "shuult.gmobile.mn"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.200.251', "shuult.gmobile.mn"]
 
 
 # Application definition
@@ -85,7 +89,8 @@ DATABASES = {
             'sql_mode': 'traditional',
       },
         'USER': 'root',
-        'PASSWORD': 'dugaarshuultAsset_B@tbayar2021$',
+        #'PASSWORD': 'dugaarshuultAsset_B@tbayar2021$',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -127,13 +132,23 @@ USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'static'),]
+
+# STATICFILES_DIRS = [os.path.join(BASE_DIR,'static'),]
+
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'static_files'#os.path.join(BASE_DIR, 'static/')
+
+# Only required during development
+STATICFILES_DIRS = [
+    BASE_DIR / "static",  # or os.path.join(BASE_DIR, "static") for older versions
+]
+
+# STATIC_ROOT = 'static_files'#os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 
 # STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

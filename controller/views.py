@@ -11,7 +11,7 @@ import getpass
 from django.shortcuts import render
 from datetime import datetime
 
-from models import *
+from .models import *
 
 # import pytesseract
 
@@ -20,7 +20,8 @@ from models import *
 import logging
 
 log_date = datetime.now().strftime('%Y-%m-%d')
-log_file = 'home/bam/nFilterNew/Logs/Log_{0}'.format(log_date)
+#log_file = 'home/bam/nFilterNew/Logs/Log_{0}'.format(log_date)
+log_file = 'C:/Users/batuu/OneDrive/Documents/Self-employed/Projects/nFilterNew/Logs/Log_{0}'.format(log_date)
 logging.basicConfig(filename=log_file + '.log', level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
 
 
@@ -85,8 +86,8 @@ def zahialga(request):
     logging.info("user_ip: " + str(user_ip))
     socket_results = FilternumberBlockUnblock("block", "", number, "", register, user_ip)
     if socket_results == "Success":
-		logging.info("Хадгалсан дугаар: "+str(number))
-		context = {"try_again_url": "/nuur", "try_again": "OK",
+        logging.info("Хадгалсан дугаар: "+str(number))
+        context = {"try_again_url": "/nuur", "try_again": "OK",
                    "error1": "Таны сонгосон " + str(number) + " дугаар амжилттай хадгалагдлаа.",
                    "error2": "Та үйлчилгээний ажилтанд хандаж дугаараа авна уу."}
     else:
